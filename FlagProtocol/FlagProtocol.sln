@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlagProtocol", "FlagProtocol\FlagProtocol.csproj", "{683E7ED8-1DB3-4897-9F04-008157690FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683E7ED8-1DB3-4897-9F04-008157690FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683E7ED8-1DB3-4897-9F04-008157690FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683E7ED8-1DB3-4897-9F04-008157690FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683E7ED8-1DB3-4897-9F04-008157690FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5B06832-CD0E-4E87-9B85-6AE988BD58DE}
+	EndGlobalSection
+EndGlobal
