@@ -19,8 +19,9 @@ namespace FlagProtocol {
 
             Console.WriteLine("Transmitting flag...");
 
-            var ipe = new IPEndPoint(IPAddress.Parse("224.0.0.252"), 6969);
+            var ipe = new IPEndPoint(IPAddress.Broadcast, 6969);
             var c = new UdpClient();
+            c.EnableBroadcast = true;
 
             while (true) {
 
