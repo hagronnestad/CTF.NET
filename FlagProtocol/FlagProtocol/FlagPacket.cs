@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace FlagProtocol {
@@ -18,9 +18,24 @@ namespace FlagProtocol {
             packet.Add(FlagByte);
 
             // Insert packet size after the magic numbers
-            packet.InsertRange(sizeof(uint), BitConverter.GetBytes(packet.Count + sizeof(uint)));
+            packet.Insert(MagicNumbers.Length, (byte) packet.Count);
 
             return packet.ToArray();
+        }
+
+        public static FlagPacket FromBytes(byte[] bytes) {
+            if (bytes.Length < 7) return null;
+
+            var magicNumbers = Encoding.ASCII.GetString(bytes.Take(4).ToArray());
+            if (magicNumbers != "flag") return null;
+
+            var p = new FlagPacket() {
+                SequenceSize = bytes[5],
+                SequenceNumber = bytes[6],
+                FlagByte = bytes[7]
+            };
+
+            return p;
         }
     }
 }
