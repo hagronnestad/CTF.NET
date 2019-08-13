@@ -2,14 +2,11 @@
 
 CTF.NET is a collection of .NET based capture the flag challenges.
 
-## FlagProtocol
+---
 
-#### Get the flag transmitter running and see if you can actually CAPTURE the flag.
+### [FlagProtocol](/hagronnestad/CTF.NET/blob/master/README.md)
 
-- Uses .NET Core and works on Windows and Linux (`dotnet FlagProtocol.dll`)
-- Capture the flag without any reverse engineering (hard)
-- Capture the flag by reverse engineering (medium)
+This one is all about actually CAPTURING the flag. Get the flag transmitter running and capture the flag. Solvable without reverse engineering.
 
-### FlagCapture
-
-#### ❗ Tool to capture the flag. Keep away if you want to capture the flag yourself! ❗
+* Download challenge: https://mega.nz/#!dS5RBIrK!i-6-Ttl7fcugosewb_bYAsL0LqAy2mBLz_Yz8p0IW3Y
+* Also available at CTFlearn: https://ctflearn.com/problems/739
