@@ -4,7 +4,7 @@ CTF.NET is a collection of .NET based capture the flag challenges.
 
 ---
 
-### [FlagProtocol](FlagProtocol)
+### [Flag Protocol](FlagProtocol)
 
 This one is all about actually CAPTURING the flag. Get the flag transmitter running and capture the flag. Solvable without reverse engineering.
 
