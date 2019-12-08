@@ -1,4 +1,8 @@
-﻿using System;
+﻿/// ****************************************************************************
+/// Created by Hein Andre Grønnestad (@heinandre) for CTFlearn Holiday Hack 2019
+/// ****************************************************************************
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -36,8 +40,8 @@ namespace CTF6502 {
             Console.WriteLine("*                                                                     *");
             Console.WriteLine("* This 6502 assembly program should process the flag data and make it *");
             Console.WriteLine("* readable, but the data in the memory dump looks corrupted.          *");
-            Console.WriteLine("* I guess there's a bug in the assembly program...                    *");
-            Console.WriteLine("* or could it be in the emulator?                                     *");
+            Console.WriteLine("* I guess there's a bug in the assembly program, or maybe in the      *");
+            Console.WriteLine("* emulator? This `OPCODE_0x49`-method looks strange...                *");
             Console.WriteLine("***********************************************************************\n");
 
             Console.WriteLine("- Loading flag data into memory location 0x0000 ...");
@@ -59,6 +63,8 @@ namespace CTF6502 {
             Console.WriteLine("- Dumping memory...\n");
             DumpMemory();
         }
+
+        // No code below this comment needs to be modified to solve the challenge.
 
         static void DumpMemory() {
             for (int i = 0; i < 0xB0; i += 0x10) {
