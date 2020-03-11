@@ -16,7 +16,7 @@ This one is all about actually CAPTURING the flag. Get the flag transmitter runn
 ### [CTF 6502](CTF6502)
 
 * 🕹👨🏻‍💻 Bring out your 8-bit skills for this MOS6502-based challenge.
-* Available at CTFlearn: https://ctflearn.com/challenge/852 (Soon!)
+* Available at CTFlearn: https://ctflearn.com/challenge/852
 
 #### Welcome to the CTF 6502 challenge!
 In this CTF challenge, the MOS 6502 has returned. This time it doesn't power a home video game console or computer system like the Nintendo Entertainment System or the Commodore 64.
